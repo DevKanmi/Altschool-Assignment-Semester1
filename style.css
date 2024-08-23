@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing : border-box;
+}
+
+.about {
+    width : 100%;
+    
+    padding: 78px 0px;
+    background-color:  #CEE5ED
+}
+
+.about img {
+    height: auto;
+    width: 420px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: hsl(218, 44%, 22%);
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.about-text p {
+    color: hsl(218, 44%, 22%);
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.about-text details{
+    margin-bottom: 20px;
+    color: hsl(218, 44%, 22%);
+}
+
+
+button{
+    background: hsl(218, 44%, 22%);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid hsl(218, 44%, 22%);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-text {
+        width: 100%; /* Make it take the full width on smaller screens */
+        text-align: center; /* Center the text for better readability */
+        padding: 0 20px; /* Add some padding to prevent text from touching the edges */
+    }
+    
+    .about-text h1 {
+        font-size: 40px; /* Adjust font size for smaller screens */
+    }
+
+    .about-text h5 {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+
+    .about-text p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .main {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .about img {
+        width: 100%; /* Make the image responsive */
+        max-width: 300px; /* Optional: limit the max width on smaller screens */
+        margin-bottom: 20px; /* Add some space below the image */
+    }
+}
