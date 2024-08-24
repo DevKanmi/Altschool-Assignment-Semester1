@@ -78,30 +78,30 @@ button:hover {
 
 @media only screen and (max-width: 768px) {
     .about-text {
-        width: 100%; /* Make it take the full width on smaller screens */
-        text-align: center; /* Center the text for better readability */
-        padding: 0 20px; /* Add some padding to prevent text from touching the edges */
+        width: 100%; 
+        text-align: center; 
+        padding: 0 20px;
     }
     
     .about-text h1 {
-        font-size: 40px; /* Adjust font size for smaller screens */
+        font-size: 40px; 
     }
 
     .about-text h5 {
-        font-size: 18px; /* Adjust font size for smaller screens */
+        font-size: 18px;
     }
 
     .about-text p {
-        font-size: 16px; /* Adjust font size for smaller screens */
+        font-size: 16px;
     }
 
     .main {
-        flex-direction: column; /* Stack elements vertically */
+        flex-direction: column; 
     }
 
     .about img {
-        width: 100%; /* Make the image responsive */
-        max-width: 300px; /* Optional: limit the max width on smaller screens */
-        margin-bottom: 20px; /* Add some space below the image */
+        width: 100%; 
+        max-width: 300px; 
+        margin-bottom: 20px; 
     }
 }
